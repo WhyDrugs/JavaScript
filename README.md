@@ -1,2 +1,8 @@
 # JavaScript
- Pastas de iniciação ao estudo do Javascript, desde o começo, com declaração de variáveis, condicionais e etc
+ ## Conhecendo o JS
+ ## Comandos Basicos JS
+ ## Entendendo a DOM
+ ## IF em JS
+ ## While em JS
+ ## Avançando em JS
+
