@@ -55,13 +55,11 @@
 
 
 
-
+ ## Entendendo a DOM
     
 
 
 
-
- ## Entendendo a DOM
  ## IF em JS
  ## While em JS
  ## Avançando em JS
