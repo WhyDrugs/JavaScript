@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercicio</title>
+    <style>
+        body{
+            background-color: rgb(163, 163, 236);;
+            font: normal 15pt arial;
+
+        }
+
+        header{
+            color: white;
+            text-align: center;
+        }
+
+        section{
+            background: white;
+            border-radius: 30px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px black;
+            margin-bottom: 20px;
+        
+
+        }
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+
+        }
+
+        div{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div>    Pegar a hora do dia e dizer bom dia, boa tarde ou boa noite!   </div>
+    </section>
+
+    <section>
+        <div id="hora">    testando    </div>
+        <div id="msg">  testando     </div>
+    </section>
+
+    <footer>
+        <p> made by Lucas Carneiro</p>
+    </footer>
+
+    <script>
+        var hora = document.getElementById('hora')
+        var data = new Date()
+        var hr = data.getHours()
+
+        hora.innerHTML = `Agora são ${hr} horas`
+       if (hr >= 0 && hr < 12) {
+           //bom dia
+           msg.innerHTML = 'Bom dia'
+           
+       } else if (hr >= 12 && hr < 18 ){
+           //boa tarde
+           msg.innerHTML = 'Boa tarde'
+       }else{
+           //boa noite
+           msg.innerHTML = 'Boa Noite'
+       }
+    </script>
+</body>
+</html>
