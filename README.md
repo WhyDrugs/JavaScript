@@ -53,6 +53,16 @@
             TESTE ? TRUE : FALSE
             EXEMPLO: MEDIA >=7 ?"APROVADO":"REPROVADO
 
+    Condicionais
+        if (hr >= 0 && hr < 12) {
+        //bom dia
+        } else if (hr >= 12 && hr < 18 ){
+        //boa tarde
+        }else{
+        //boa noite
+        }
+
+
 
 
  ## Entendendo a DOM
